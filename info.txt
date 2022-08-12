@@ -1,0 +1,9 @@
+background-color: #003554
+primary: #00a6fb
+secondary: #051923
+tertiary: #0582ca
+quaternary: #006494
+other: #ffffff
+orange: #ff5400
+yellow: #ffbd00
+lightgreen: #0cce6b
