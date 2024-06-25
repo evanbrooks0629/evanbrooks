@@ -10,6 +10,7 @@ import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import { send } from 'emailjs-com';
 import './index.css';
 import Project from './Project';
+import taskforce from './assets/taskforce.png';
 import xrph from './assets/xrph.png';
 import timeblock from './assets/timeblock.png';
 import monitorme from './assets/monitorme.png';
@@ -148,12 +149,12 @@ function App() {
           <Grid item xs={1} />
           <Grid item xs={9}>
             <Typography variant="h5" sx={{ marginTop: { xs: '-20px', sm: '0px', md: '0px', lg: '0px' } }} style={{fontWeight: 'bold', color: '#0cce6b', fontFamily: 'Kanit'}}>
-              Software Developer / Student / Digital Creator
+              Software Developer
             </Typography>
             <Typography variant="h6" color="secondary" sx={{ marginTop: { xs: '20px', sm: '10px', md: '10px', lg: '10px' } }} style={{fontSize: '18px', fontFamily: 'Space Mono'}}>
-              I am a software developer who specializes in creating meaningful app experiences. Currently, I'm studying computer science at the <Link underline="always" color="secondary" href="https://www.ufl.edu/" target="_blank" style={{cursor: 'pointer'}}>University of Florida</Link>.
+              I am a software developer who specializes in creating meaningful app experiences. Currently, I'm working on my startup Brighter, a microlearning mobile application.
             </Typography>
-            <Button variant="outlined" color="success" href="https://evanbrooks0629.github.io/TimeBlock/" target="_blank" style={{marginTop: '30px', textTransform: 'none', borderWidth: '3px', fontWeight: 'bold', fontFamily: 'Space Mono'}}>View my most recent project</Button>
+            <Button variant="outlined" color="success" href="https://github.com/evanbrooks0629/TaskForceAI" target="_blank" style={{marginTop: '30px', textTransform: 'none', borderWidth: '3px', fontWeight: 'bold', fontFamily: 'Space Mono'}}>View my most recent project</Button>
           </Grid>
           <Grid item xs={2} />
           <Grid item xs={12} style={{height: '50px'}} />
@@ -167,12 +168,12 @@ function App() {
             <Grid item container xs={8} sm={6} md={6} lg={6} >
               <Typography variant="h4" color="primary" style={{fontFamily: 'Kanit'}}><span style={{color: '#0cce6b', fontFamily: 'Space Mono'}}>01.&nbsp;</span>About Me</Typography>
               <Typography variant="h6" color="secondary" style={{marginTop: "20px", fontSize: '18px', fontFamily: 'Space Mono'}}>
-                Hey there! My name is Evan Brooks, and I'm a senior pursuing a bachelor's degree in computer science at the University of Florida. My interests lie in software development, crypto, and climbing. I love to create web apps with React and mobile apps with React Native. My most recent project is called XRPH Wallet, which is a non-custodial mobile wallet for the XRP Ledger. It is available on the <Link underline="always" color="secondary" href="https://apps.apple.com/us/app/xrph-wallet/id6451218628" target="_blank" style={{cursor: 'pointer'}}>Apple App Store</Link> and the <Link underline="always" color="secondary" href="https://play.google.com/store/apps/details?id=com.xrphwallet" target="_blank" style={{cursor: 'pointer'}}>Google Play Store</Link>. I developed it during my time at <Link underline="always" color="secondary" href="https://xrphealthcare.com/" target="_blank" style={{cursor: 'pointer'}}>XRP Healthcare</Link>.
+                Hey there! My name is Evan Brooks, and I recently conpleted my bachelor's degree in computer science at the University of Florida. My interests lie in software development, crypto, climbing, and soccer. I love to create web apps with React and mobile apps with React Native. My most recent project is called TaskForceAI, which is a desktop application that allows for custom configuration of teams of AI agents to complete complex tasks. 
               </Typography>
               <Typography variant="h6" color="secondary" style={{marginTop: "20px", fontSize: '18px', fontFamily: 'Space Mono'}}>
                 I tend to work with JavaScript, Python, and C++, but I am also knowledgable in HTML, CSS, PHP, MySQL.  Recently I have been working on projects using React and Node. 
               </Typography>
-              <Typography variant="h6" color="primary" style={{marginTop: "20px", fontSize: '18px', fontFamily: 'Space Mono'}}>Some notable projects include <Link underline="always" href="https://evanbrooks0629.github.io/TimeBlock/" target="_blank" style={{cursor: 'pointer', color: '#0cce6b'}}>TimeBlock</Link>, <Link underline="always" href="https://devpost.com/software/monitorme-q5gt2n" target="_blank" style={{cursor: 'pointer', color: '#0cce6b'}}>MonitorMe</Link>, and <Link underline="always" href="https://github.com/evanbrooks0629/surge" target="_blank" style={{cursor: 'pointer', color: '#0cce6b'}}>Surge</Link></Typography>
+              <Typography variant="h6" color="primary" style={{marginTop: "20px", fontSize: '18px', fontFamily: 'Space Mono'}}>Some other notable projects include <Link underline="always" href="https://evanbrooks0629.github.io/TimeBlock/" target="_blank" style={{cursor: 'pointer', color: '#0cce6b'}}>TimeBlock</Link>, <Link underline="always" href="https://devpost.com/software/monitorme-q5gt2n" target="_blank" style={{cursor: 'pointer', color: '#0cce6b'}}>MonitorMe</Link>, and <Link underline="always" href="https://github.com/evanbrooks0629/surge" target="_blank" style={{cursor: 'pointer', color: '#0cce6b'}}>Surge</Link></Typography>
             </Grid>
             <Grid item xs={1} sm={2} md={2} lg={2} />
             <Grid item xs={1} sx={{ boxShadow: 20 }} style={{borderRadius: '50px', marginTop: '110px', height: '400px', minWidth: '50px', maxWidth: '50px', backgroundColor: '#0582ca'}}>
@@ -207,6 +208,7 @@ function App() {
                 </Typography>
               </Grid>
               <Grid item container xs={12} style={{marginTop: '30px', position: 'relative'}}>
+                <Project title="TaskForceAI" link1="https://github.com/evanbrooks0629/TaskForceAI" link2="https://youtu.be/npXj7mpZvDQ" subtitle="TaskForceAI is a desktop application that allows for custom configuration of teams of AI agents to complete complex tasks. Users can choose from multiple LLMs to run tasks. By configuring teams of agents, each task can be worked on by multiple agents simultaneously. Biult using PyQt6 and Microsoft Autogen in Python." img1={taskforce} />
                 <Project title="XRPH Wallet" link1="https://apps.apple.com/us/app/xrph-wallet/id6451218628" link2="https://github.com/XRPHealthcare/XRPH-Mobile-Wallet" subtitle="A non-custodial mobile wallet for the XRP Ledger. Users can send and receive XRP and XRPH, track transaction history, and get rewards using the XRPH Prescription Savings Card. Built with React Native, Firebase, Google Cloud, and XRPL.js. Visit the link to find out how to download it and the Github repository to view the open source code." img1={xrph} />
                 <Project title="TimeBlock" link1="https://github.com/evanbrooks0629/TimeBlock" link2="https://evanbrooks0629.github.io/TimeBlock/" subtitle="Inspired by the popular TimeBlocking technique, I set out to create an app that let me do that, but using technology. This PWA lets you visually plan out your day by using things called 'blocks,' which can be any event. It is quite useful when you know you have things to do, but are having trouble planning out fitting everything into your day." img1={timeblock} />
                 <Project title="MonitorMe" link1="https://github.com/evanbrooks0629/MonitorMe" link2="https://devpost.com/software/monitorme-q5gt2n" subtitle="Created in a solo Hackathon, MonitorMe aims to give buyers an advantage in a competitive online shopping market. This web app lets you create monitors, or price checkers, for a number of popular stores, like Walmart, Target, and BestBuy. Get notified when the price of an item drops below or at your target price, and go quickly to checkout to secure your product." img1={monitorme} />
