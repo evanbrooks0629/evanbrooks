@@ -149,7 +149,7 @@ function App() {
           <Grid item xs={1} />
           <Grid item xs={9}>
             <Typography variant="h5" sx={{ marginTop: { xs: '-20px', sm: '0px', md: '0px', lg: '0px' } }} style={{fontWeight: 'bold', color: '#0cce6b', fontFamily: 'Kanit'}}>
-              Software Developer
+              Software Engineer
             </Typography>
             <Typography variant="h6" color="secondary" sx={{ marginTop: { xs: '20px', sm: '10px', md: '10px', lg: '10px' } }} style={{fontSize: '18px', fontFamily: 'Space Mono'}}>
               I am a software developer who specializes in creating meaningful app experiences. Currently, I'm working on my startup Brighter, a microlearning mobile application.
