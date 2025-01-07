@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/evanbrooks/static/css/main.0adf56e3.css",
-    "main.js": "/evanbrooks/static/js/main.c378670c.js",
+    "main.js": "/evanbrooks/static/js/main.8a6826f4.js",
     "static/media/xrph.png": "/evanbrooks/static/media/xrph.6166d1a6ad126bebbcc3.png",
     "static/media/timeblock.png": "/evanbrooks/static/media/timeblock.5befb45d766286fa2740.png",
     "static/media/docvr.png": "/evanbrooks/static/media/docvr.c8285c8326fe67e73374.png",
     "static/media/monitorme.png": "/evanbrooks/static/media/monitorme.bbad65bdb7e1f9b0d1ed.png",
     "static/media/taskforce.png": "/evanbrooks/static/media/taskforce.e307b4326ed8677dae54.png",
     "static/media/surge.png": "/evanbrooks/static/media/surge.3b385db3f993da64771c.png",
-    "static/media/resume.pdf": "/evanbrooks/static/media/resume.ada44a25320e51901c39.pdf",
+    "static/media/mongomail.png": "/evanbrooks/static/media/mongomail.7a78c7777b25518e321f.png",
+    "static/media/resume.pdf": "/evanbrooks/static/media/resume.c2afd86c1fa60cc58bb1.pdf",
     "index.html": "/evanbrooks/index.html",
     "main.0adf56e3.css.map": "/evanbrooks/static/css/main.0adf56e3.css.map",
-    "main.c378670c.js.map": "/evanbrooks/static/js/main.c378670c.js.map"
+    "main.8a6826f4.js.map": "/evanbrooks/static/js/main.8a6826f4.js.map"
   },
   "entrypoints": [
     "static/css/main.0adf56e3.css",
-    "static/js/main.c378670c.js"
+    "static/js/main.8a6826f4.js"
   ]
 }
