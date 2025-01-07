@@ -16,6 +16,7 @@ import timeblock from './assets/timeblock.png';
 import monitorme from './assets/monitorme.png';
 import surge from './assets/surge.png';
 import docvr from './assets/docvr.png';
+import mongomail from './assets/mongomail.png';
 import resume from './assets/resume.pdf';
 
 const theme = createTheme({
@@ -48,11 +49,6 @@ function App() {
   const [success, setSuccess] = useState("");
 
   const handleSubmit = () => {
-    console.log(subject);
-    console.log(name);
-    console.log(company);
-    console.log(email);
-    console.log(message);
 
     let errorMessages = [];
 
@@ -103,12 +99,10 @@ function App() {
         successMessage = "Thank you for contacting me. I will respond as soon as I can.";
         setSuccess(successMessage);
         setErrors([]);
-        console.log('SUCCESS!', response.status, response.text);
       })
       .catch((err) => {
         setSuccess("");
         setErrors(["Error sending email. Please check your connection."]);
-        console.log('FAILED...', err);
       });
     } else {
       setSuccess("");
@@ -208,7 +202,7 @@ function App() {
                 </Typography>
               </Grid>
               <Grid item container xs={12} style={{marginTop: '30px', position: 'relative'}}>
-                <Project title="MongoMail" link1="" link2="https://mongomail.co" subtitle="MongoMail connects to various databases, like MongoDB, and email providers, like SendGrid, to seamlessly bridge the gap between user data and email marketing. Key features include user segmentation, email template management, valuable deliverability analytics, and complete email personalization. Built with Node.js, Express.js, Next.js, AWS EC2, Ngrok, PM2, Stripe, & Unlayer. Currently supports integrations for MongoDB, Gmail, and SendGrid." img1={taskforce} />
+                <Project title="MongoMail" link1="" link2="https://mongomail.co" subtitle="MongoMail connects to various databases, like MongoDB, and email providers, like SendGrid, to seamlessly bridge the gap between user data and email marketing. Key features include user segmentation, email template management, valuable deliverability analytics, and complete email personalization. Built with Node.js, Express.js, Next.js, AWS EC2, Ngrok, PM2, Stripe, & Unlayer. Currently supports integrations for MongoDB, Gmail, and SendGrid." img1={mongomail} />
                 <Project title="TaskForceAI" link1="https://github.com/evanbrooks0629/TaskForceAI" link2="https://youtu.be/npXj7mpZvDQ" subtitle="TaskForceAI is a desktop application that allows for custom configuration of teams of AI agents to complete complex tasks. Users can choose from multiple LLMs to run tasks. By configuring teams of agents, each task can be worked on by multiple agents simultaneously. Built using PyQt6 and Microsoft Autogen in Python." img1={taskforce} />
                 <Project title="XRPH Wallet" link1="https://apps.apple.com/us/app/xrph-wallet/id6451218628" link2="https://github.com/XRPHealthcare/XRPH-Mobile-Wallet" subtitle="A non-custodial mobile wallet for the XRP Ledger. Users can send and receive XRP and XRPH, track transaction history, and get rewards using the XRPH Prescription Savings Card. Built with React Native, Firebase, Google Cloud, and XRPL.js. Visit the link to find out how to download it and the Github repository to view the open source code." img1={xrph} />
                 <Project title="TimeBlock" link1="https://github.com/evanbrooks0629/TimeBlock" link2="https://evanbrooks0629.github.io/TimeBlock/" subtitle="Inspired by the popular TimeBlocking technique, I set out to create an app that let me do that, but using technology. This PWA lets you visually plan out your day by using things called 'blocks,' which can be any event. It is quite useful when you know you have things to do, but are having trouble planning out fitting everything into your day." img1={timeblock} />

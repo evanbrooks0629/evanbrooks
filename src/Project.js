@@ -32,8 +32,8 @@ function Project(props) {
                     
                     </Grid>
                     <Grid item xs={4} direction="row">
-                        <IconButton href={props.link1} target="_blank" sx={{ boxShadow: 5 }} style={{height: '35px', width: '35px', backgroundColor: '#0cce6b', borderRadius: '50px', marginRight: '10px', marginTop: '15px'}}><GitHubIcon /></IconButton>
-                        <IconButton href={props.link2} target="_blank" sx={{ boxShadow: 5 }} style={{height: '35px', width: '35px', backgroundColor: '#0cce6b', borderRadius: '50px', marginRight: '15px', marginTop: '15px'}}><LaunchIcon /></IconButton>
+                        {props.link1 && <IconButton href={props.link1} target="_blank" sx={{ boxShadow: 5 }} style={{height: '35px', width: '35px', backgroundColor: '#0cce6b', borderRadius: '50px', marginRight: '10px', marginTop: '15px'}}><GitHubIcon /></IconButton>}
+                        {props.link2 && <IconButton href={props.link2} target="_blank" sx={{ boxShadow: 5 }} style={{height: '35px', width: '35px', backgroundColor: '#0cce6b', borderRadius: '50px', marginRight: '15px', marginTop: '15px'}}><LaunchIcon /></IconButton>}
                        
                     </Grid>
                     <Grid item xs={12}>
