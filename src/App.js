@@ -143,12 +143,12 @@ function App() {
           <Grid item xs={1} />
           <Grid item xs={9}>
             <Typography variant="h5" sx={{ marginTop: { xs: '-20px', sm: '0px', md: '0px', lg: '0px' } }} style={{fontWeight: 'bold', color: '#0cce6b', fontFamily: 'Kanit'}}>
-              Software Engineer
+              Software Engineer & Founder
             </Typography>
             <Typography variant="h6" color="secondary" sx={{ marginTop: { xs: '20px', sm: '10px', md: '10px', lg: '10px' } }} style={{fontSize: '18px', fontFamily: 'Space Mono'}}>
-              I am a software developer who specializes in creating meaningful app experiences. Currently, I'm working on my startup MongoMail, a SaaS that bridges the gap between user data and email marketing.
+              I am a former SWE turned prompt whisperer. I have 6 friends - my first instance of Claude Code, my second instance of Claude Code, and my other 4 subagents running in parallel. Currently, I'm working on my startup Puffle, your AI GTM.
             </Typography>
-            <Button variant="outlined" color="success" href="https://mongomail.co" target="_blank" style={{marginTop: '30px', textTransform: 'none', borderWidth: '3px', fontWeight: 'bold', fontFamily: 'Space Mono'}}>Check out MongoMail</Button>
+            <Button variant="outlined" color="success" href="https://puffle.ai" target="_blank" style={{marginTop: '30px', textTransform: 'none', borderWidth: '3px', fontWeight: 'bold', fontFamily: 'Space Mono'}}>Check out Puffle</Button>
           </Grid>
           <Grid item xs={2} />
           <Grid item xs={12} style={{height: '50px'}} />
@@ -162,12 +162,11 @@ function App() {
             <Grid item container xs={8} sm={6} md={6} lg={6} >
               <Typography variant="h4" color="primary" style={{fontFamily: 'Kanit'}}><span style={{color: '#0cce6b', fontFamily: 'Space Mono'}}>01.&nbsp;</span>About Me</Typography>
               <Typography variant="h6" color="secondary" style={{marginTop: "20px", fontSize: '18px', fontFamily: 'Space Mono'}}>
-                Hey there! My name is Evan Brooks, and I recently conpleted my bachelor's degree in computer science at the University of Florida and am currently getting my master's in software engineering from the University of Miami. My interests lie in software development, crypto, climbing, and soccer. I love to create web apps with React and mobile apps with React Native. My most recent project is called TaskForceAI, which is a desktop application that allows for custom configuration of teams of AI agents to complete complex tasks. 
+                As a founder who cracked sales, I realized that our internal tooling that helped us create scalable personalized outbound was better than our old idea. So, we pivoted.
               </Typography>
               <Typography variant="h6" color="secondary" style={{marginTop: "20px", fontSize: '18px', fontFamily: 'Space Mono'}}>
-                I tend to work with JavaScript, Python, and C++, but I am also knowledgable in HTML, CSS, PHP, MySQL.  Recently I have been working on projects using React and Node. 
+                My sales stack contained about 10 outdated products that I have since replicated at a fraction of the cost. Puffle has them all. Except an agent has the ability to execute sales using your voice, so it is much better.
               </Typography>
-              <Typography variant="h6" color="primary" style={{marginTop: "20px", fontSize: '18px', fontFamily: 'Space Mono'}}>Some other notable projects include <Link underline="always" href="https://evanbrooks0629.github.io/TimeBlock/" target="_blank" style={{cursor: 'pointer', color: '#0cce6b'}}>TimeBlock</Link>, <Link underline="always" href="https://devpost.com/software/monitorme-q5gt2n" target="_blank" style={{cursor: 'pointer', color: '#0cce6b'}}>MonitorMe</Link>, and <Link underline="always" href="https://github.com/evanbrooks0629/surge" target="_blank" style={{cursor: 'pointer', color: '#0cce6b'}}>Surge</Link></Typography>
             </Grid>
             <Grid item xs={1} sm={2} md={2} lg={2} />
             <Grid item xs={1} sx={{ boxShadow: 20 }} style={{borderRadius: '50px', marginTop: '110px', height: '400px', minWidth: '50px', maxWidth: '50px', backgroundColor: '#0582ca'}}>
@@ -178,7 +177,7 @@ function App() {
                 Me
               </Typography>
               <IconButton href="https://github.com/evanbrooks0629" target="_blank" sx={{ boxShadow: 5 }} style={{height: '45px', width: '45px', backgroundColor: '#0cce6b', borderRadius: '50px', marginLeft: '2.5px', marginTop: '30px'}}><GitHubIcon /></IconButton>
-              <IconButton href="https://www.linkedin.com/in/evan-brooks-ab368a242" target="_blank" sx={{ boxShadow: 5 }} style={{height: '45px', width: '45px', backgroundColor: '#0cce6b', borderRadius: '50px', marginLeft: '2.5px', marginTop: '2.5px'}}><LinkedInIcon /></IconButton>
+              <IconButton href="https://www.linkedin.com/in/evanbrooks0629" target="_blank" sx={{ boxShadow: 5 }} style={{height: '45px', width: '45px', backgroundColor: '#0cce6b', borderRadius: '50px', marginLeft: '2.5px', marginTop: '2.5px'}}><LinkedInIcon /></IconButton>
               <IconButton href="https://www.instagram.com/_evanbrooks_/" target="_blank" sx={{ boxShadow: 5 }} style={{height: '45px', width: '45px', backgroundColor: '#0cce6b', borderRadius: '50px', marginLeft: '2.5px', marginTop: '2.5px'}}><InstagramIcon /></IconButton>
               <IconButton href={resume} target="_blank" sx={{ boxShadow: 5 }} style={{height: '45px', width: '45px', backgroundColor: '#0cce6b', borderRadius: '50px', marginLeft: '2.5px', marginTop: '2.5px'}}><DownloadIcon /></IconButton>
             </Grid>
